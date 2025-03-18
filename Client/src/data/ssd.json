@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Samsung 970 EVO Plus 1TB",
+    "price": "$149",
+    "specs": {
+      "type": "NVMe M.2",
+      "read_speed": "up to 3500MB/s",
+      "write_speed": "up to 3300MB/s"
+    },
+    "image": "https://example.com/ssd_images/970_evo_plus_1tb.jpg"
+  },
+  {
+    "name": "Crucial P2 500GB",
+    "price": "$69",
+    "specs": {
+      "type": "NVMe M.2",
+      "read_speed": "up to 2400MB/s",
+      "write_speed": "up to 1900MB/s"
+    },
+    "image": "https://example.com/ssd_images/p2_500gb.jpg"
+  },
+  {
+    "name": "Western Digital WD Blue SN550 1TB",
+    "price": "$109",
+    "specs": {
+      "type": "NVMe M.2",
+      "read_speed": "up to 2400MB/s",
+      "write_speed": "up to 1950MB/s"
+    },
+    "image": "https://example.com/ssd_images/wd_blue_sn550_1tb.jpg"
+  },
+  {
+    "name": "Samsung 870 EVO 2TB",
+    "price": "$249",
+    "specs": {
+      "type": "SATA 2.5-inch",
+      "read_speed": "up to 560MB/s",
+      "write_speed": "up to 530MB/s"
+    },
+    "image": "https://image-us.samsung.com/SamsungUS/home/computing/memory-and-storage/ssd/mz-77e/4tb/MZ-77E4T0BW_003_Black.jpg?$product-details-jpg$"
+  },
+  {
+    "name": "ADATA XPG SX8200 Pro 512GB",
+    "price": "$89",
+    "specs": {
+      "type": "NVMe M.2",
+      "read_speed": "up to 3500MB/s",
+      "write_speed": "up to 2300MB/s"
+    },
+    "image": "https://example.com/ssd_images/sx8200_pro_512gb.jpg"
+  },
+  {
+    "name": "Crucial MX500 1TB",
+    "price": "$99",
+    "specs": {
+      "type": "SATA 2.5-inch",
+      "read_speed": "up to 560MB/s",
+      "write_speed": "up to 510MB/s"
+    },
+    "image": "https://example.com/ssd_images/mx500_1tb.jpg"
+  },
+  {
+    "name": "Sabrent Rocket Q 2TB",
+    "price": "$299",
+    "specs": {
+      "type": "NVMe M.2",
+      "read_speed": "up to 3200MB/s",
+      "write_speed": "up to 2900MB/s"
+    },
+    "image": "https://example.com/ssd_images/rocket_q_2tb.jpg"
+  },
+  {
+    "name": "Kingston A2000 500GB",
+    "price": "$79",
+    "specs": {
+      "type": "NVMe M.2",
+      "read_speed": "up to 2200MB/s",
+      "write_speed": "up to 2000MB/s"
+    },
+    "image": "https://example.com/ssd_images/a2000_500gb.jpg"
+  },
+  {
+    "name": "Crucial BX500 240GB",
+    "price": "$39",
+    "specs": {
+      "type": "SATA 2.5-inch",
+      "read_speed": "up to 540MB/s",
+      "write_speed": "up to 500MB/s"
+    },
+    "image": "https://example.com/ssd_images/bx500_240gb.jpg"
+  },
+  {
+    "name": "Intel 660p Series 1TB",
+    "price": "$129",
+    "specs": {
+      "type": "NVMe M.2",
+      "read_speed": "up to 1800MB/s",
+      "write_speed": "up to 1800MB/s"
+    },
+    "image": "https://example.com/ssd_images/660p_1tb.jpg"
+  }
+]

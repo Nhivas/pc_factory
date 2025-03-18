@@ -1,0 +1,113 @@
+[
+    {
+      "name": "Corsair RM850x",
+      "price": "$129",
+      "specs": {
+        "wattage": "850 Watts",
+        "certification": "80 Plus Gold",
+        "modularity": "Fully Modular",
+        "fan_mode": "Zero RPM Fan Mode"
+      },
+      "image": "https://m.media-amazon.com/images/I/716kYIi59wL._AC_UF350,350_QL80_.jpg"
+    },
+    {
+      "name": "EVGA SuperNOVA 750 G5",
+      "price": "$119",
+      "specs": {
+        "wattage": "750 Watts",
+        "certification": "80 Plus Gold",
+        "modularity": "Fully Modular",
+        "fan_mode": "Eco Mode"
+      },
+      "image": "https://example.com/smps_images/supernova_750_g5.jpg"
+    },
+    {
+      "name": "Seasonic FOCUS GX-650",
+      "price": "$99",
+      "specs": {
+        "wattage": "650 Watts",
+        "certification": "80 Plus Gold",
+        "modularity": "Fully Modular",
+        "feature": "Compact Size"
+      },
+      "image": "https://example.com/smps_images/focus_gx_650.jpg"
+    },
+    {
+      "name": "Thermaltake Toughpower GF1 850W",
+      "price": "$139",
+      "specs": {
+        "wattage": "850 Watts",
+        "certification": "80 Plus Gold",
+        "modularity": "Fully Modular",
+        "fan_mode": "Smart Zero Fan"
+      },
+      "image": "https://example.com/smps_images/toughpower_gf1_850w.jpg"
+    },
+    {
+      "name": "Cooler Master MWE Gold 650 V2",
+      "price": "$79",
+      "specs": {
+        "wattage": "650 Watts",
+        "certification": "80 Plus Gold",
+        "modularity": "Semi-Fanless Mode",
+        "cables": "Flat Black Cables"
+      },
+      "image": "https://example.com/smps_images/mwe_gold_650_v2.jpg"
+    },
+    {
+      "name": "be quiet! Straight Power 11 750W",
+      "price": "$149",
+      "specs": {
+        "wattage": "750 Watts",
+        "certification": "80 Plus Gold",
+        "modularity": "Fully Modular",
+        "fan": "Silent Wings 3 Fan"
+      },
+      "image": "https://example.com/smps_images/straight_power_11_750w.jpg"
+    },
+    {
+      "name": "NZXT C850",
+      "price": "$129",
+      "specs": {
+        "wattage": "850 Watts",
+        "certification": "80 Plus Gold",
+        "modularity": "Fully Modular",
+        "fan": "Fluid Dynamic Bearing Fan"
+      },
+      "image": "https://example.com/smps_images/c850.jpg"
+    },
+    {
+      "name": "ASUS ROG Strix 750W",
+      "price": "$139",
+      "specs": {
+        "wattage": "750 Watts",
+        "certification": "80 Plus Gold",
+        "modularity": "Fully Modular",
+        "fan_mode": "0dB Technology"
+      },
+      "image": "https://example.com/smps_images/rog_strix_750w.jpg"
+    },
+    {
+      "name": "Gigabyte P750GM",
+      "price": "$99",
+      "specs": {
+        "wattage": "750 Watts",
+        "certification": "80 Plus Gold",
+        "modularity": "Fully Modular",
+        "fan": "Smart Fan"
+      },
+      "image": "https://example.com/smps_images/p750gm.jpg"
+    },
+    {
+      "name": "SilverStone Strider Platinum 1000W",
+      "price": "$199",
+      "specs": {
+        "wattage": "1000 Watts",
+        "certification": "80 Plus Platinum",
+        "modularity": "Fully Modular",
+        "feature": "Compact Design"
+      },
+      "image": "https://example.com/smps_images/strider_platinum_1000w.jpg"
+    }
+  ]
+  

@@ -1,0 +1,73 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logForm {
+    margin-top: 300px;
+    overflow: none;
+    width: 480px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.476);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.logForm form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logForm input{
+    margin-top: 40px;
+    padding:  15px;
+    width: 65%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.logForm button {
+    margin-top: 50px;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+.logForm input[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+.logForm input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.logForm p {
+    text-align: center;
+}
+
+.logForm p a {
+    color: orange;
+}

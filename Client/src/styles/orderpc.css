@@ -1,0 +1,26 @@
+.orderpc-container {
+    padding: 40px;
+  }
+  
+  .orderpc-container h1 {
+    position: relative;
+    left:80px;
+  }
+  
+  .orderpc-details {
+    margin-bottom: 20px;
+  }
+  
+  .orderpc-details p {
+    margin: 5px 0;
+  }
+  
+  .orderpc-container button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

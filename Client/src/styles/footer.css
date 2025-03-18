@@ -1,0 +1,18 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.footer{
+    
+    width: 100%;
+    
+    background: rgba(16, 16, 16, 0.81);
+}
+
+p{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    color: white;
+}

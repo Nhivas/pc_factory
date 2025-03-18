@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.signup{
+    margin-top: 300px;
+    overflow: none;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.476);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.signup h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.signup textarea{
+    width:65%;
+    padding:  25px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.signup input{
+    margin-top: 40px;
+    width: 65%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.signup button {
+    margin-top: 50px;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+.signup input[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+.signup input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.signup p {
+    text-align: center;
+}
+
+.signup p a {
+    color: orange;
+}

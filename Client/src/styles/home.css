@@ -1,0 +1,35 @@
+
+.bg{
+    
+    width: 1500px;
+    height: 500px;
+    display: inline-block;
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+}
+.bg .fpc{
+    width:250px;
+    height: 50px;
+    color: white;
+    transition: 0.2s;
+    border-radius: 4px;
+    background-color: orange;
+    position: absolute;
+    top: 58%;
+    left: 43%;
+    
+}
+.welcome{
+    font-size: 60px;
+    text-align: center;
+    margin: 100px 0 25px;
+    letter-spacing: 3px;
+    color:rgb(202, 199, 199);
+    font-weight: 100;
+}
+button:hover{
+    background-color: rgba(161, 105, 3, 0.908);
+    transform: scale(1.05);
+}

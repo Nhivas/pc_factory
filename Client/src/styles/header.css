@@ -1,0 +1,73 @@
+.header{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: orange;
+}
+
+#logout{
+    border-radius: 2px;
+    width:80px;
+    height:40px;
+    font-size: 15px;
+    background-color: rgba(255, 0, 0, 0.786);
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 10px;
+    border-radius: 50%;
+}
+
+.wel{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.651);
+    position: relative;
+    right: 30px;
+}
+.header .logo img{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.header .menu{
+    display: flex;
+    align-items: center;
+}
+
+.header .menu a{
+    padding:10px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.header .menu a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.header .menu a.active{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.header .btn{
+    font-size: 14px;
+    margin-right: 14px;
+}
+.header .logout {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }

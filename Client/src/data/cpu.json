@@ -1,0 +1,148 @@
+[
+    {
+      "name": "Intel Core i9-12900K",
+      "model": "12900K",
+      "generation": 12,
+      "price": "$599",
+      "specs": {
+        "cores": 16,
+        "threads": 24,
+        "base_clock": "3.2 GHz",
+        "boost_clock": "5.2 GHz",
+        "cache": "30MB",
+        "socket": "LGA1700",
+        "tdp": "125W"
+      },
+      "image": "https://m.media-amazon.com/images/I/61UVtHz+IlL.jpg"
+    },
+    {
+      "name": "AMD Ryzen 9 5950X",
+      "model": "5950X",
+      "generation": 4,
+      "price": "$749",
+      "specs": {
+        "cores": 16,
+        "threads": 32,
+        "base_clock": "3.4 GHz",
+        "boost_clock": "4.9 GHz",
+        "cache": "72MB",
+        "socket": "AM4",
+        "tdp": "105W"
+      },
+      "image": "https://gamesncomps.com/wp-content/uploads/2024/01/5900x-1.jpg"
+    },
+    {
+      "name": "Intel Core i7-12700K",
+      "model": "12700K",
+      "generation": 12,
+      "price": "$399",
+      "specs": {
+        "cores": 12,
+        "threads": 20,
+        "base_clock": "3.6 GHz",
+        "boost_clock": "5.0 GHz",
+        "cache": "25MB",
+        "socket": "LGA1700",
+        "tdp": "125W"
+      },
+      "image": "https://m.media-amazon.com/images/I/51GYVerUgML.jpg"
+    },
+   
+    {
+      "name": "Intel Core i5-12600K",
+      "model": "12600K",
+      "generation": 12,
+      "price": "$289",
+      "specs": {
+        "cores": 10,
+        "threads": 16,
+        "base_clock": "3.7 GHz",
+        "boost_clock": "4.9 GHz",
+        "cache": "20MB",
+        "socket": "LGA1700",
+        "tdp": "125W"
+      },
+      "image": "https://m.media-amazon.com/images/I/51QJsh7HAhL._AC_UF1000,1000_QL80_DpWeblab_.jpg"
+    },
+    {
+      "name": "AMD Ryzen 5 5600X",
+      "model": "5600X",
+      "generation": 4,
+      "price": "$299",
+      "specs": {
+        "cores": 6,
+        "threads": 12,
+        "base_clock": "3.7 GHz",
+        "boost_clock": "4.6 GHz",
+        "cache": "35MB",
+        "socket": "AM4",
+        "tdp": "65W"
+      },
+      "image": "https://m.media-amazon.com/images/I/61twhaihHtL.jpg"
+    },
+    {
+      "name": "Intel Core i9-11900K",
+      "model": "11900K",
+      "generation": 11,
+      "price": "$529",
+      "specs": {
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5 GHz",
+        "boost_clock": "5.3 GHz",
+        "cache": "16MB",
+        "socket": "LGA1200",
+        "tdp": "125W"
+      },
+      "image": "https://m.media-amazon.com/images/I/71diouNMRHL.jpg"
+    },
+    {
+      "name": "AMD Ryzen 9 5900X",
+      "model": "5900X",
+      "generation": 4,
+      "price": "$549",
+      "specs": {
+        "cores": 12,
+        "threads": 24,
+        "base_clock": "3.7 GHz",
+        "boost_clock": "4.8 GHz",
+        "cache": "70MB",
+        "socket": "AM4",
+        "tdp": "105W"
+      },
+      "image": "https://gamesncomps.com/wp-content/uploads/2020/11/5900x-1.jpg"
+    },
+    {
+      "name": "Intel Core i5-12400",
+      "model": "12400",
+      "generation": 12,
+      "price": "$199",
+      "specs": {
+        "cores": 6,
+        "threads": 12,
+        "base_clock": "2.5 GHz",
+        "boost_clock": "4.4 GHz",
+        "cache": "12MB",
+        "socket": "LGA1700",
+        "tdp": "65W"
+      },
+      "image": "https://m.media-amazon.com/images/I/51D+aC--oXL.jpg"
+    },
+    {
+      "name": "AMD Ryzen 7 5800X",
+      "model": "5800",
+      "generation": 4,
+      "price": "$349",
+      "specs": {
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.4 GHz",
+        "boost_clock": "4.6 GHz",
+        "cache": "36MB",
+        "socket": "AM4",
+        "tdp": "105W"
+      },
+      "image": "https://m.media-amazon.com/images/I/51smqWKarCL.jpg"
+    }
+  ]
+  

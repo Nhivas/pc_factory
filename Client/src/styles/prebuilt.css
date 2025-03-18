@@ -1,0 +1,59 @@
+.prebuilt-container {
+    padding: 40px;
+    font-size: 30px;
+  }
+  .prebuilt-container h1{
+    margin-top: 100px;
+    font-size: 70px;
+    text-align: center;
+  }  
+  .prebuilt-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: space-around;
+  }
+  
+  .prebuilt-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    min-height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prebuilt-card h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  .prebuilt-card img {
+    text-align: center;
+    width: 250px;
+    height:300px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .prebuilt-card p {
+    margin: 5px 0;
+  }
+  
+  .prebuilt-card button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition :0.2s;
+    font-size: 20px;
+  }
+  .prebuilt-card button:hover{
+    background-color: rgb(189, 123, 0);
+  }
+  

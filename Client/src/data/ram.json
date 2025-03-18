@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Corsair Vengeance LPX 16GB",
+      "ddr": "DDR4",
+      "speed": "3200MHz",
+      "price": "$79",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJF3SoaLtqDZ8g77tiuvgWRdEvDyCw66Nwd1WAC2qaw&s"
+    },
+    {
+      "name": "G.SKILL Ripjaws V Series 32GB",
+      "ddr": "DDR4",
+      "speed": "3600MHz",
+      "price": "$129",
+      "image": "https://drr622wuctn26.cloudfront.net/image/cache/catalog/memory/g%20skill/f4-3200c16s-32gvk/f4-3200c16s-32gvk_img_main-600x600.jpg"
+    },
+    {
+      "name": "Crucial Ballistix 8GB",
+      "ddr": "DDR4",
+      "speed": "2666MHz",
+      "price": "$49",
+      "image": "https://i0.wp.com/eshoppingmantra.in/wp-content/uploads/2022/03/Crucial-Ballistix-8GB-DDR4-3600-Desktop-Gaming-Memory-Black-BL8G36c16U4B.jpg?fit=500%2C500&ssl=1"
+    },
+    {
+      "name": "Kingston HyperX Fury 64GB",
+      "ddr": "DDR4",
+      "speed": "3200MHz",
+      "price": "$199",
+      "image": "https://media.pangoly.com/img/7/d/f/c/7dfc564c-d805-4069-8f7c-4a1b93f3260d.jpg"
+    },
+    {
+      "name": "Corsair Vengeance RGB Pro 32GB",
+      "ddr": "DDR4",
+      "speed": "3600MHz",
+      "price": "$149",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLNy1Q1Be0Fn9r0Syr4Dd1iJy3WU1FFAaUHHWEWkQuyw&s"
+    },
+    {
+      "name": "Team T-FORCE DARK Z 16GB",
+      "ddr": "DDR4",
+      "speed": "4000MHz",
+      "price": "$89",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHyYrFFe7JevLUuffrkM5zQP5HYjvJMdCzxH8zMrV3Q&s"
+    },
+    {
+      "name": "Patriot Viper Steel Series 64GB",
+      "ddr": "DDR4",
+      "speed": "3200MHz",
+      "price": "$229",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz9pDxAV4cbKzLp28nmtXbSfzg77byjCbSN611AOY8XA&s"
+    },
+    {
+      "name": "ADATA XPG Spectrix D60G 32GB",
+      "ddr": "DDR4",
+      "speed": "3200MHz",
+      "price": "$139",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi1fB8jhLbYoZ1ibSn4vY2AijNf-g36hDmy_Uo00vx2A&s"
+    },
+    {
+      "name": "Crucial Ballistix MAX 32GB",
+      "ddr": "DDR4",
+      "speed": "4000MHz",
+      "price": "$179",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw4rZ56oZlq6BFF74kbCFjtoHUyBzeUAC8h_q5OKNmPg&s"
+    },
+    {
+      "name": "G.SKILL Trident Z RGB 16GB",
+      "ddr": "DDR4",
+      "speed": "3600MHz",
+      "price": "$99",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3J-dWM4lJVvN0oeLRZgEzlc9zeiYHUiStrsvdjS7Lwg&s"
+    }
+  ]
+  

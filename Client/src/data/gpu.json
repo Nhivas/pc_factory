@@ -1,0 +1,92 @@
+[
+  {
+    "name": "NVIDIA GeForce RTX 3080",
+    "specs": {
+      "VRAM": "10GB GDDR6X",
+      "Memory_Bus": "320-bit"
+    },
+    "price": "$799",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ew34OmaMvWKvy7MIjqo2UJFTNyC6aniqxa77aE09YA&s"
+  },
+  {
+    "name": "AMD Radeon RX 6800 XT",
+    "specs": {
+      "VRAM": "16GB GDDR6",
+      "Memory_Bus": "256-bit"
+    },
+    "price": "$649",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGCLg1yf3CeukjDgK9VKNajwe-VDqb92SIhE1lJ-l12w&s"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 3060 Ti",
+    "specs": {
+      "VRAM": "8GB GDDR6",
+      "Memory_Bus": "256-bit"
+    },
+    "price": "$399",
+    "image": "https://m.media-amazon.com/images/I/613NbTwkvOS._AC_UF1000,1000_QL80_DpWeblab_.jpg"
+  },
+  {
+    "name": "AMD Radeon RX 6700 XT",
+    "specs": {
+      "VRAM": "12GB GDDR6",
+      "Memory_Bus": "192-bit"
+    },
+    "price": "$479",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRefAhbL2odPvrXEEnHUnoE5NewjQ1cZAFse8Le5RfvYA&s"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 3070",
+    "specs": {
+      "VRAM": "8GB GDDR6",
+      "Memory_Bus": "256-bit"
+    },
+    "price": "$499",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPWb6dLPErUe1AKwqE8GU6Pf-7uNn8zlAz8X43hZe55g&s"
+  },
+  {
+    "name": "AMD Radeon RX 6600 XT",
+    "specs": {
+      "VRAM": "8GB GDDR6",
+      "Memory_Bus": "128-bit"
+    },
+    "price": "$379",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrcxqjjohAU3lA-5oQHgRTA5DNMI0KL3cVDq-7KuPP_A&s"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 3090",
+    "specs": {
+      "VRAM": "24GB GDDR6X",
+      "Memory_Bus": "384-bit"
+    },
+    "price": "$1499",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRohC3Qfu79W5GH1hgK-tVZcFvTaVjgi1JB-7VDCu4BKQ&s"
+  },
+  {
+    "name": "AMD Radeon RX 6900 XT",
+    "specs": {
+      "VRAM": "16GB GDDR6",
+      "Memory_Bus": "256-bit"
+    },
+    "price": "$999",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd7RaFNErEUIPsxUEfThI17M2g49lT1nuOWiDGEOwy4Q&s"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 3060",
+    "specs": {
+      "VRAM": "12GB GDDR6",
+      "Memory_Bus": "192-bit"
+    },
+    "price": "$329",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkuaXbEN_N9W38oe0vOifEycH_3jIIrnnoVPC1UZSFEg&s"
+  },
+  {
+    "name": "AMD Radeon RX 6700",
+    "specs": {
+      "VRAM": "6GB GDDR6",
+      "Memory_Bus": "192-bit"
+    },
+    "price": "$379",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCWVZ_KjQ6sycXynqmA3flHRfLacSQv_D7ZPbE8IFSuw&s"
+  }
+]

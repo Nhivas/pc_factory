@@ -1,0 +1,53 @@
+[
+    {
+      "name": "NZXT H510",
+      "price": "$69",
+      "image": "https://example.com/cabinet_images/h510.jpg"
+    },
+    {
+      "name": "Fractal Design Meshify C",
+      "price": "$89",
+      "image": "https://example.com/cabinet_images/meshify_c.jpg"
+    },
+    {
+      "name": "Cooler Master MasterBox TD500 Mesh",
+      "price": "$99",
+      "image": "https://example.com/cabinet_images/td500_mesh.jpg"
+    },
+    {
+      "name": "Corsair iCUE 4000X RGB",
+      "price": "$119",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ZJTLqumUgDUQFQMXRV3Lt6MY8-S9nio7P79ZN-IaFQ&s"
+    },
+    {
+      "name": "Phanteks Eclipse P400A",
+      "price": "$79",
+      "image": "https://example.com/cabinet_images/p400a.jpg"
+    },
+    {
+      "name": "Lian Li Lancool II Mesh",
+      "price": "$109",
+      "image": "https://example.com/cabinet_images/lancool_ii_mesh.jpg"
+    },
+    {
+      "name": "be quiet! Pure Base 500DX",
+      "price": "$119",
+      "image": "https://example.com/cabinet_images/pure_base_500dx.jpg"
+    },
+    {
+      "name": "Thermaltake View 51",
+      "price": "$149",
+      "image": "https://example.com/cabinet_images/view_51.jpg"
+    },
+    {
+      "name": "Deepcool MATREXX 55 V3 ADD-RGB",
+      "price": "$79",
+      "image": "https://example.com/cabinet_images/matrexx_55_v3.jpg"
+    },
+    {
+      "name": "NZXT H510 Elite",
+      "price": "$149",
+      "image": "https://example.com/cabinet_images/h510_elite.jpg"
+    }
+  ]
+  

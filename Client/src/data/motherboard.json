@@ -1,0 +1,172 @@
+[
+  {
+    "name": "ASUS ROG Strix Z690-E Gaming WiFi",
+    "price": "$399",
+    "cpu_compatibility": 12,
+    "ramslot_ddr": "DDR4",
+    "specs": {
+      "CPU_Compatibility": "12th Gen Intel Core processors",
+      "RAM_Slots": "4 DDR4 DIMM slots",
+      "Max_RAM_Capacity": "128GB",
+      "Form_Factor": "ATX",
+      "PCIe_Slots": "3 x PCIe 5.0 x16, 2 x PCIe 4.0 x1",
+      "Storage": "4 x M.2 slots, 8 x SATA 6Gb/s",
+      "Ethernet": "2.5Gb Ethernet",
+      "USB_Ports": "USB 3.2 Gen 2 Type-A and Type-C ports"
+    },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY68Ly_U0ilb2a9-LSf0jJshX3nWNbmc4W-bDRmI1juw&s"
+  },
+  {
+    "name": "GIGABYTE Z690 AORUS ELITE AX DDR4",
+    "price": "$289",
+    "cpu_compatibility": 12,
+    "ramslot_ddr": "DDR4",
+    "specs": {
+      "CPU_Compatibility": "12th Gen Intel Core processors",
+      "RAM_Slots": "4 DDR4 DIMM slots",
+      "Max_RAM_Capacity": "128GB",
+      "Form_Factor": "ATX",
+      "PCIe_Slots": "3 x PCIe 5.0 x16, 2 x PCIe 4.0 x1",
+      "Storage": "3 x M.2 slots, 6 x SATA 6Gb/s",
+      "Ethernet": "2.5Gb Ethernet",
+      "USB_Ports": "USB 3.2 Gen 2 Type-A and Type-C ports"
+    },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpA8-LoMx0iIW5fL17Fnj7vTvv4doQGg0axvUxoN32w&s"
+  },
+  {
+    "name": "MSI MPG B560I GAMING EDGE WIFI",
+    "price": "$149",
+    "cpu_compatibility": 11,
+    "ramslot_ddr": "DDR4",
+    "specs": {
+      "CPU_Compatibility": "11th Gen Intel Core processors",
+      "RAM_Slots": "2 DDR4 DIMM slots",
+      "Max_RAM_Capacity": "64GB",
+      "Form_Factor": "Mini-ITX",
+      "PCIe_Slots": "1 x PCIe 4.0 x16",
+      "Storage": "1 x M.2 slot, 4 x SATA 6Gb/s",
+      "Ethernet": "1Gb Ethernet",
+      "USB_Ports": "USB 3.2 Gen 1 Type-A and Type-C ports"
+    },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFNLtRit7rVtm-L1VfoN1LTYOGRvgeIIt3FmKurPLiQ&s"
+  },
+  {
+    "name": "ASRock B550M PRO4",
+    "price": "$129",
+    "cpu_compatibility": 3,
+    "ramslot_ddr": "DDR4",
+    "specs": {
+      "CPU_Compatibility": "3rd Gen AMD Ryzen processors",
+      "RAM_Slots": "4 DDR4 DIMM slots",
+      "Max_RAM_Capacity": "128GB",
+      "Form_Factor": "Micro-ATX",
+      "PCIe_Slots": "1 x PCIe 4.0 x16, 1 x PCIe 3.0 x16, 1 x PCIe 3.0 x1",
+      "Storage": "2 x M.2 slots, 6 x SATA 6Gb/s",
+      "Ethernet": "2.5Gb Ethernet",
+      "USB_Ports": "USB 3.2 Gen 2 Type-A and Type-C ports"
+    },
+    "image": "https://rukminim2.flixcart.com/image/750/900/kppt47k0/motherboard/c/e/p/b550m-pro4-supports-3rd-gen-amd-am4-ryzen-future-amd-ryzen-original-imag3vuhwjpnf2gn.jpeg?q=20&crop=false"
+  },
+  {
+    "name": "ASUS TUF GAMING B450-PLUS II",
+    "price": "$99",
+    "cpu_compatibility": 3,
+    "ramslot_ddr": "DDR4",
+    "specs": {
+      "CPU_Compatibility": "3rd Gen AMD Ryzen processors",
+      "RAM_Slots": "4 DDR4 DIMM slots",
+      "Max_RAM_Capacity": "128GB",
+      "Form_Factor": "ATX",
+      "PCIe_Slots": "1 x PCIe 3.0 x16, 1 x PCIe 3.0 x16 (max at x4 mode), 3 x PCIe 2.0 x1",
+      "Storage": "4 x SATA 6Gb/s",
+      "Ethernet": "1Gb Ethernet",
+      "USB_Ports": "USB 3.2 Gen 2 Type-A and Type-C ports"
+    },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm_Dsh0CYh9ZaSlAXz3ZkjihlQnaNuZdjztQv3zLpRTg&s"
+  },
+  {
+    "name": "MSI MAG B550 TOMAHAWK",
+    "price": "$169",
+    "cpu_compatibility": 3,
+    "ramslot_ddr": "DDR4",
+    "specs": {
+      "CPU_Compatibility": "3rd Gen AMD Ryzen processors",
+      "RAM_Slots": "4 DDR4 DIMM slots",
+      "Max_RAM_Capacity": "128GB",
+      "Form_Factor": "ATX",
+      "PCIe_Slots": "1 x PCIe 4.0 x16, 1 x PCIe 3.0 x16, 2 x PCIe 3.0 x1",
+      "Storage": "2 x M.2 slots, 6 x SATA 6Gb/s",
+      "Ethernet": "2.5Gb Ethernet",
+      "USB_Ports": "USB 3.2 Gen 2 Type-A and Type-C ports"
+    },
+    "image": "https://www.primeabgb.com/wp-content/uploads/2020/06/mag-b550-tomahawk-image-01-600x600-1.webp"
+  },
+  {
+    "name": "GIGABYTE Z590 AORUS ELITE AX DDR4",
+    "price": "$279",
+    "cpu_compatibility": 11,
+    "ramslot_ddr": "DDR4",
+    "specs": {
+      "CPU_Compatibility": "11th Gen Intel Core processors",
+      "RAM_Slots": "4 DDR4 DIMM slots",
+      "Max_RAM_Capacity": "128GB",
+      "Form_Factor": "ATX",
+      "PCIe_Slots": "3 x PCIe 4.0 x16, 1 x PCIe 3.0 x16, 2 x PCIe 3.0 x1",
+      "Storage": "3 x M.2 slots, 6 x SATA 6Gb/s",
+      "Ethernet": "2.5Gb Ethernet",
+      "USB_Ports": "USB 3.2 Gen 2 Type-A and Type-C ports"
+    },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBJnwLGYKJhaRrx1fyl6HBpPqlQIfmDyZrb61i78Jug&s"
+  },
+  {
+    "name": "ASRock B450M Steel Legend",
+    "price": "$79",
+    "cpu_compatibility": 3,
+    "ramslot_ddr": "DDR4",
+    "specs": {
+      "CPU_Compatibility": "3rd Gen AMD Ryzen processors",
+      "RAM_Slots": "4 DDR4 DIMM slots",
+      "Max_RAM_Capacity": "128GB",
+      "Form_Factor": "Micro-ATX",
+      "PCIe_Slots": "1 x PCIe 3.0 x16, 1 x PCIe 2.0 x16, 1 x PCIe 2.0 x1",
+      "Storage": "4 x SATA 6Gb/s",
+      "Ethernet": "1Gb Ethernet",
+      "USB_Ports": "USB 3.1 Gen1 Type-A, USB 3.1 Gen1 Type-C, USB 2.0"
+    },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbpo6I8Ju_ESGnb2ox1VJcOIJxZ9YauM24EdSpwSm59w&s"
+  },
+  {
+    "name": "MSI MPG B550 GAMING PLUS",
+    "price": "$129",
+    "cpu_compatibility": 3,
+    "ramslot_ddr": "DDR4",
+    "specs": {
+      "CPU_Compatibility": "3rd Gen AMD Ryzen processors",
+      "RAM_Slots": "4 DDR4 DIMM slots",
+      "Max_RAM_Capacity": "128GB",
+      "Form_Factor": "ATX",
+      "PCIe_Slots": "1 x PCIe 4.0 x16, 1 x PCIe 3.0 x16, 2 x PCIe 3.0 x1",
+      "Storage": "2 x M.2 slots, 6 x SATA 6Gb/s",
+      "Ethernet": "2.5Gb Ethernet",
+      "USB_Ports": "USB 3.2 Gen 2 Type-A and Type-C ports"
+    },
+    "image": "https://www.primeabgb.com/wp-content/uploads/2023/08/mpg-b550-gaming-plus-image-01-600x600-1.webp"
+  },
+  {
+    "name": "ASUS ROG Strix Z590-F Gaming WiFi",
+    "price": "$349",
+    "cpu_compatibility": 11,
+    "ramslot_ddr": "DDR4",
+    "specs": {
+      "CPU_Compatibility": "11th Gen Intel Core processors",
+      "RAM_Slots": "4 DDR4 DIMM slots",
+      "Max_RAM_Capacity": "128GB",
+      "Form_Factor": "ATX",
+      "PCIe_Slots": "3 x PCIe 4.0 x16, 1 x PCIe 3.0 x16, 2 x PCIe 3.0 x1",
+      "Storage": "4 x M.2 slots, 8 x SATA 6Gb/s",
+      "Ethernet": "2.5Gb Ethernet",
+      "USB_Ports": "USB 3.2 Gen 2 Type-A and Type-C ports"
+    },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGZMRmiSDQ-3P8vcXczLWs9-dl_Z-vKwoAwYFWHXY-Ew&s"
+  }
+]
