@@ -6,7 +6,9 @@
     display: inline-block;
 }
 .bg img{
-    width: 100%;
+    width: 90%;
+    position: relative;
+    left: 5%;
     height: 100%;
 }
 .bg .fpc{
@@ -22,6 +24,7 @@
     
 }
 .welcome{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 60px;
     text-align: center;
     margin: 100px 0 25px;
