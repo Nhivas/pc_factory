@@ -3,6 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios'; // Import axios for making API calls
 import '../styles/header.css';
 
+
+const apiUrl = process.env.REACT_APP_API_URL;
 const Header = () => {
   const [userDetails, setUserDetails] = useState(null);
   const navigate = useNavigate();
@@ -16,7 +18,7 @@ const Header = () => {
 
   const handleLogout = async () => {
     try {
-      await axios.post('http://localhost:5000/api/logout');
+      await axios.post(`${apiUrl}/api/logout`);
       localStorage.removeItem('user');
       setUserDetails(null);
       navigate('/');

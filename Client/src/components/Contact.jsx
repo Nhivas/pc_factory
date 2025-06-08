@@ -4,6 +4,8 @@ import '../styles/contact.css';
 import Header from './Header';
 import Footer from './Footer';
 
+
+const apiUrl = process.env.REACT_APP_API_URL;
 const Contact = () => {
   const [query, setQuery] = useState('');
   const [userDetails, setUserDetails] = useState(null);
@@ -24,7 +26,7 @@ const Contact = () => {
     }
     const { username, email } = userDetails;
     try {
-      const response = await axios.post('http://localhost:5000/api/contact', {
+      const response = await axios.post(`${apiUrl}/api/contact`, {
         username,
         email,
         query

@@ -4,6 +4,8 @@ import axios from 'axios';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import '../styles/signup.css'
 
+
+const apiUrl = process.env.REACT_APP_API_URL;
 const SignupPage = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -17,7 +19,7 @@ const SignupPage = () => {
     const handleSignup = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:5000/api/signup', { username, password ,email, name, phone, address });
+            const response = await axios.post(`${apiUrl}/api/signup`, { username, password ,email, name, phone, address });
             console.log(response.data.message);
             // Display success message and clear form
             setSuccess(true);

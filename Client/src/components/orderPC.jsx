@@ -5,6 +5,8 @@ import '../styles/orderpc.css';
 import Header from './Header';
 import Footer from './Footer';
 
+
+const apiUrl = process.env.REACT_APP_API_URL;
 const OrderPC = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -32,7 +34,7 @@ const OrderPC = () => {
         order_status: 'pending', // Set the order status to 'pending'
       };
 
-      const response = await axios.post('http://localhost:5000/api/pc', orderData);
+      const response = await axios.post(`${apiUrl}/api/pc`, orderData);
       console.log(response.data);
       navigate('/order-success');
     } catch (error) {

@@ -4,7 +4,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const session = require('express-session');
-
+const dotenv = require('dotenv');
+dotenv.config();
 
 
 const app = express();
@@ -12,14 +13,14 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.use(session({
-  secret: 'vengeance', 
+  secret: process.env.SECRET, 
   resave: false,
   saveUninitialized: true,
   cookie: { secure: false } 
 }));
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://nhivas:2004@cluster0.oqy28dm.mongodb.net/PC_factory')
+mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true})
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('Error connecting to MongoDB:', err));
 
@@ -214,6 +215,10 @@ app.post('/api/confirm-order', async (req, res) => {
     console.error('Error confirming order:', error);
     res.status(500).json({ message: 'Internal server error' });
   }
+});
+
+app.post('/', async (req, res) => {
+  res.json({ message: "Server working successfully", body: req.body });
 });
 
 
