@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import '../styles/signup.css'
 
 
-const apiUrl = process.env.REACT_APP_API_URL;
+const apiUrl = import.meta.env.VITE_API_URL;
 const SignupPage = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');

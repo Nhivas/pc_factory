@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 
-const apiUrl = process.env.REACT_APP_API_URL;
+const apiUrl = import.meta.env.VITE_API_URL;
 const Contact = () => {
   const [query, setQuery] = useState('');
   const [userDetails, setUserDetails] = useState(null);

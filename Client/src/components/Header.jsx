@@ -4,7 +4,7 @@ import axios from 'axios'; // Import axios for making API calls
 import '../styles/header.css';
 
 
-const apiUrl = process.env.REACT_APP_API_URL;
+const apiUrl = import.meta.env.VITE_API_URL;
 const Header = () => {
   const [userDetails, setUserDetails] = useState(null);
   const navigate = useNavigate();

@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import '../styles/confirmorder.css'
 
-const apiUrl = process.env.REACT_APP_API_URL;
+const apiUrl = import.meta.env.VITE_API_URL;
 const ConfirmOrder = () => {
   const location = useLocation();
   const navigate = useNavigate();
