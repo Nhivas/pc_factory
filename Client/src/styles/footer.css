@@ -1,18 +1,29 @@
-html,body{
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
 }
-.footer{
-    
+
+.footer {
     width: 100%;
-    
-    background: rgba(16, 16, 16, 0.81);
+    background: rgba(15, 15, 15, 0.95);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+    margin-top: auto;
 }
 
-p{
+.footer p {
     text-align: center;
-    padding: 20px 0px;
-    font-size: 20px;
-    color: white;
+    padding: 25px 20px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.footer p:hover {
+    color: orange;
+    transition: color 0.3s ease;
 }

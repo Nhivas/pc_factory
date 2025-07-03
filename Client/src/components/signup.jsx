@@ -46,9 +46,9 @@ const SignupPage = () => {
             <input type="text" name="phone" placeholder="Phone number"value={phone} onChange={(e) => setPhone(e.target.value)} required />
             <textarea name="address" value={address} placeholder="Address" onChange={(e) => setAddress(e.target.value)} required></textarea>
             <button type="submit">Signup</button>
-            {error && <p>{error}</p>}
+            {error && <p className="error">{error}</p>}
             {success && (
-                <p>
+                <p className="success">
                     Sign up successful. You can now <Link to="/">login</Link>.
                 </p>
             )}

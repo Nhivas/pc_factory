@@ -1,73 +1,117 @@
-body{
+body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #0f0f0f 100%);
+    margin: 0;
+    padding: 0;
 }
 
 .logForm {
-    margin-top: 300px;
-    overflow: none;
-    width: 480px;
-    height: 600px;
-    margin: 0 auto;
-    padding: 20px;
+    width: 400px;
+    padding: 40px;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.476);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(26, 26, 26, 0.9);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
 }
 
 .logForm h2 {
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 30px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, orange 0%, #ff8c00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .logForm form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: center;
+    gap: 20px;
     align-items: center;
-
 }
 
-.logForm input{
-    margin-top: 40px;
-    padding:  15px;
-    width: 65%;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 14px;
-}
-.logForm button {
-    margin-top: 50px;
-    width: 40%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.logForm input {
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
     font-size: 16px;
-    text-align: center;
-    
+    background: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
 }
 
-.logForm input[type="submit"] {
-    background-color: #007bff;
+.logForm input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.logForm input:focus {
+    outline: none;
+    border-color: orange;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 4px rgba(255, 165, 0, 0.1);
+}
+
+.logForm button {
+    width: 100%;
+    padding: 15px 20px;
     border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(135deg, orange 0%, #ff8c00 100%);
+    color: white;
     cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
 }
 
-.logForm input[type="submit"]:hover {
-    background-color: #0056b3;
+.logForm button:hover {
+    background: linear-gradient(135deg, #ff8c00 0%, orange 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 165, 0, 0.4);
+}
+
+.logForm button:active {
+    transform: translateY(0);
 }
 
 .logForm p {
     text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 20px 0 0 0;
+    font-size: 14px;
 }
 
 .logForm p a {
     color: orange;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.logForm p a:hover {
+    color: #ff8c00;
+    text-decoration: underline;
+}
+
+.logForm p.error {
+    color: #ff6b6b;
+    background: rgba(255, 107, 107, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 107, 107, 0.3);
+    margin: 10px 0;
 }

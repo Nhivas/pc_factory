@@ -50,7 +50,7 @@ const BuildPC = () => {
   };
 
   return (
-    <>
+    <div className="build-pc-container">
       <Header />
       <div className="cards">
         <Card onSelectComponent={handleSelectComponent} />
@@ -66,7 +66,7 @@ const BuildPC = () => {
         <div className="price">Total Price: ${selectedComponents.total}</div>
         <div className="addp"><button onClick={handleAddParts}>+ Add Parts</button></div>
       </div>
-    </>
+    </div>
   );
 };
 

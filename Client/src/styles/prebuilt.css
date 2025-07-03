@@ -1,59 +1,124 @@
 .prebuilt-container {
-    padding: 40px;
-    font-size: 30px;
-  }
-  .prebuilt-container h1{
-    margin-top: 100px;
-    font-size: 70px;
+    padding: 50rem 8vw 32px 8vw;
+    background: #181818;
+    min-height: 100vh;
+    font-size: 18px;
+}
+.prebuilt-container h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
     text-align: center;
-  }  
-  .prebuilt-cards {
+    color: orange;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.prebuilt-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 90px;
-    justify-content: space-around;
-  }
-  
-  .prebuilt-card {
+    gap: 28px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.prebuilt-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 10px;
-    width: 350px;
-    min-height: 400px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .prebuilt-card h2 {
-    font-size: 1em;
+    background: #232323;
+    border: 2px solid orange;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(255,165,0,0.08);
+    padding: 24px 18px 18px 18px;
+    width: 22vw;
+    min-width: 240px;
+    max-width: 270px;
+    min-height: 340px;
+    transition: box-shadow 0.18s, transform 0.18s, border-color 0.18s;
+}
+.prebuilt-card:hover {
+    box-shadow: 0 8px 32px rgba(255,165,0,0.18);
+    border-color: #ffb347;
+    transform: translateY(-4px) scale(1.02);
+}
+
+.prebuilt-card h2 {
+    font-size: 1.25rem;
     margin-bottom: 10px;
-  }
-  .prebuilt-card img {
+    color: orange;
+    font-weight: 700;
     text-align: center;
-    width: 250px;
-    height:300px;
-    border-radius: 8px;
-    margin-bottom: 16px;
-  }
-  
-  .prebuilt-card p {
-    margin: 5px 0;
-  }
-  
-  .prebuilt-card button {
-    background-color: orange;
-    color: white;
-    padding: 10px 20px;
+    letter-spacing: 0.2px;
+}
+.prebuilt-card img {
+    width: 240px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    border: 2px solid #444;
+    background: #111;
+}
+
+.prebuilt-card p {
+    margin: 6px 0;
+    color: #eee;
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.prebuilt-card button {
+    background: orange;
+    color: #181818;
+    padding: 10px 26px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    transition :0.2s;
-    font-size: 20px;
-  }
-  .prebuilt-card button:hover{
-    background-color: rgb(189, 123, 0);
-  }
+    transition: background 0.18s, color 0.18s, transform 0.13s;
+    font-size: 1.08em;
+    font-weight: 700;
+    margin-top: 16px;
+    box-shadow: 0 2px 8px rgba(255, 165, 0, 0.10);
+}
+.prebuilt-card button:hover {
+    background: #ffb347;
+    color: #232323;
+    transform: scale(1.04);
+}
+
+/* Responsive Design */
+@media (max-width: 1300px) {
+    .prebuilt-card {
+        width: 28vw;
+        max-width: 320px;
+    }
+}
+@media (max-width: 1000px) {
+    .prebuilt-card {
+        width: 42vw;
+        max-width: 350px;
+    }
+    .prebuilt-cards {
+        gap: 18px;
+    }
+}
+@media (max-width: 700px) {
+    .prebuilt-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+    }
+    .prebuilt-card {
+        width: 98vw;
+        max-width: 98vw;
+        min-height: 240px;
+        padding: 12px 4px 12px 4px;
+    }
+    .prebuilt-card img {
+        width: 90vw;
+        max-width: 240px;
+        height: 160px;
+    }
+}
   
